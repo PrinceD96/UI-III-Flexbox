@@ -1,0 +1,244 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.container {
+  /* border: 1px solid green; */
+  width: 60%;
+  margin: auto;
+}
+
+nav {
+  /* border: 1px solid orange; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+.top-content {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.top-content img {
+  width: 100%;
+  margin: 2% 0;
+}
+
+.top-content h1 {
+  font-size: 150%;
+  margin-top: 2%;
+}
+
+.divider-top {
+  color: grey;
+  background-color: grey;
+  height: 3px;
+  margin: 3% 0 1% 0;
+}
+
+.divider-bottom {
+  color: black;
+  background-color: black;
+  height: 3px;
+  margin: 1% 0 3% 0;
+}
+
+.middle-content {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.middle-content .items {
+  border: 1px solid black;
+  width: 48%;
+  padding: 2%;
+  background-color: #f0f0f0;
+  margin: 2% 0;
+}
+
+.items button {
+  margin: 2% 0;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2% 5%;
+  width: 30%;
+}
+
+.bottom-content {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.bottom-content .items {
+  /* border: 1px solid black; */
+  width: 48%;
+}
+
+.items ul {
+  list-style: initial;
+  margin-left: 4%;
+}
+.bottom-content .items img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.copyright {
+  text-align: center;
+  margin: 4% 0;
+}
